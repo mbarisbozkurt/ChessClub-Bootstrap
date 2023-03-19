@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anlayış Satranç Akademi</title>
+
+  <!-- #include bootstrap, bunu kaldırarak başlangıçtaki html'i görebilirsin -->
+  <!--Important: Bootstrap CSS link must go before your own CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+
+  <!-- #include js for now, in order to make the button in the navbar works in mobile phones and tablets -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- #include icons -->
+  <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+
+  <!-- #include styles.css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Yazı tipleri için-->
+  <!--Merriweather-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="title">
+            <!--Navigation Bar-->
+            <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">Anlayış Satranç Akademi</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tutors">Kadromuz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Fiyatlandırma</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="">Download</a>
+                    </li>-->
+                </ul>
+            </div>
+            </nav>
+
+        <div class="container-fluid">
+            <!--Title-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Çocuklarınıza satranç öğreterek gelişimlerine katkıda bulunun.</h1>
+                </div>
+                <div class="col-lg-6">
+                    <img class="chess-image" src="images/depositphotos_326783930-stock-il-removebg-preview.png" alt="chess-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Features-->
+    <section id="features">
+        <div class="row allContainers"> <!--Aşağıdaki bütün özellikler için-->
+            <div class="col-md-3">
+                <i class="fa-solid fa-chess-knight"></i>
+                <h3>Dikkat ve Konsantrasyon</h3>
+                <p>Satranç oynamak, dikkatinizi ve konsantrasyonunuzu geliştirir. Oyun sırasında odaklanmanız gereken birçok farklı faktör vardır, bu da beyin gücünüzü arttırır.</p>
+            </div>
+            
+            <div class="col-md-3">
+                <i class="fa-solid fa-chess-bishop"></i>
+                <h3>Sabır ve Öz Disiplin</h3>
+                <p>Satranç oynamak, sabır ve öz disiplin gerektirir. 
+                    Oyun sırasında beklemek, düşünmek ve doğru hamleleri yapmak için sabırlı olmalısınız. Bu, diğer alanlarda da öz disiplin gerektiren işlerde yardımcı olabilir.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fa-solid fa-chess-rook"></i>
+                <h3>Hafıza Geliştirme</h3>
+                <p>Satranç oynarken, oyun sırasında yapılan hamleleri hatırlamanız gerekir. Bu, hafıza geliştirme becerilerinizi de arttırır.</p>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fa-solid fa-chess-queen"></i>
+                <h3>Sosyal Etkileşim</h3>
+                <p>Satranç, başka insanlarla etkileşim kurmak için mükemmel bir yoldur. 
+                    Kulübümüze ve satranç turnuvalarına katılarak başkalarıyla satranç oynamak için fırsatlar yaratabilirsiniz.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Tutors-->
+    <section id="tutors">
+        <h2 class="staff">KADROMUZ</h2>
+
+        <div class="row photo-container">
+            <div class="col-lg-3 person">
+                <img class="iso-photo photos" src="images/iso-e1599314615102.jpg" alt="iso-photo">
+                <h5 class="names">NM İsmail Tarık Baltacı</h5>
+            </div>
+
+            <div class="col-lg-3 person">
+                <img class="şamil-photo photos" src="images/272920431_4797855093662086_5044797289672000267_n.jpg" alt="şamil-photo">
+                <h5 class="şamil-name">Şamil Aliyev</h5>
+            </div>
+
+            <div class="col-lg-3 person">
+                <img class="barış-photo photos" src="images/13690929_10210129296817039_6920167410369767353_o.jpg" alt="barış-photo">
+                <h5 class="barış-name">Barış Bozkurt</h5>
+            </div>
+
+            <div class="col-lg-3 person">
+                <img class="deniz-photo photos" src="images/146ac58a-fde4-4d14-9f40-9990fb96027c.jpeg" alt="deniz-photo">
+                <h5 class="deniz-name">Deniz Özgen</h5>
+            </div>
+        </div>       
+    </section>
+
+     <!--Pricing-->
+    <section id="pricing">
+        <h2>Her Çocuğun İhtiyacı İçin Bir Plan</h2>
+        <p>Siz ve çocuğunuz için basit ve uygun fiyat planları</p>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 pricing-column">
+                <div class="card"> <!--Her bir fiyatlandırma bir kart-->
+                    <div class="card-header">
+                        <h3>Piyon</h3>
+                    </div>     
+                    <div class="card-body">
+                        <h2>200TL/AY</h2>
+                        <p>Hafta Başına 1.5 Saat Grup Dersi</p>
+                        <p>Hafta Başına 1 Saat Özel Ders İmkanı</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-lg btn-outline-dark sign-up-buttons">Kayıt Ol</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 pricing-column">
+                <div class="card"> <!--Her bir fiyatlandırma bir kart-->
+                    <div class="card-header">
+                        <h3>Fil</h3>
+                    </div>     
+                    <div class="card-body">
+                        <h2>400TL/AY</h2>
+                        <p>Hafta Başına 4 Saat Grup Dersi</p>
+                        <p>Hafta Başına 2 Saat Özel Ders İmkanı</p>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-lg btn-dark sign-up-buttons">Kayıt Ol</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 pricing-column">
+                <div class="card"> <!--Her bir fiyatlandırma bir kart-->
+                    <div class="card-header">
+                        <h3>Vezir</h3>
+                    </div>     
+                    <div class="card-body">
+                        <h2>600TL/AY</h2>
+                        <p>Hafta Başına 6 Saat Grup Dersi</p>
+                        <p>Hafta Başına 4 Saat Özel Ders İmkanı</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-lg btn-dark sign-up-buttons">Kayıt Ol</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <a href="https://www.instagram.com/anlayis.satranc/"><i class="fa-brands fa-instagram social-media"></i></a>
+        <a href="https://twitter.com/denozgen"><i class="fa-brands fa-twitter social-media"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=649134456"><i class="fa-brands fa-facebook social-media"></i></a>
+        <p>© Copyright 2023 Anlayış Satranç Akademi</p>   
+    </footer>
+</body>
+</html>
